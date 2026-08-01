@@ -25,10 +25,10 @@
                 <option value="tables">Tables</option>
                 <option value="decor">Decor</option>
             </select>
-            <input type="text" placeholder="Search Wood Works...">
-            <button type="submit">Search</button>
+            <input type="text" placeholder="Search Wood Works..." id="searchInput">
+            <button type="submit" id="searchBtn">Search</button>
         </form>
-
+            <div id="results"></div>
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li>
@@ -51,7 +51,7 @@
         <!-- Slider Images -->
         <img class="slide fade" src="images/products/frame2.jpg" alt="Banner 1" style="display: none;">
         <img class="slide fade" src="images/products/table1.jpg" alt="Banner 2" style="display: none;">
-        <img class="slide fade" src="images/products/watch.jpg" alt="Banner 3" style="display: block;">
+        <img class="slide fade" src="images/hero/watch.jpg" alt="Banner 3" style="display: block;">
 
         <a class="prev" onclick="plusSlides(-1)">❮</a>
         <a class="next" onclick="plusSlides(1)">❯</a>
@@ -97,7 +97,7 @@
         </div>
         <p>© 2026 Shamma Store. All rights reserved.</p>
     </footer>
-<script src="js/products.js">
+<script src="js/products.js js/search.js">
 
 </script>
 </body>
