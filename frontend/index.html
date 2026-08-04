@@ -1,0 +1,104 @@
+<html lang="en"><head></head><body><div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Shamma Wood Works | Home</title>
+    
+</div></body>
+<body>
+    <div class="announcement-bar">
+        🎉 Grand Opening Sale! 20% OFF all Antique Furniture this week!
+    </div>
+
+    <header>
+        <div class="logo-section">
+            <img src="images/logo/logo.jpg" alt="Logo">
+            <h1 class="brand-name">
+                Shamma Wood Works
+            </h1>
+        </div>
+
+        <form class="search-bar">
+            <select name="category">
+                <option value="all">All Items</option>
+                <option value="chairs">Chairs</option>
+                <option value="tables">Tables</option>
+                <option value="decor">Decor</option>
+            </select>
+            <input type="text" placeholder="Search Wood Works..." id="searchInput">
+            <button type="submit" id="searchBtn">Search</button>
+        </form>
+            <div id="results"></div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="sign-in.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SLIDER -->
+    <section class="hero-container">
+        <div class="hero-content">
+            <h2 class="brandName">Shamma Wood Works</h2>
+            <p>Handcrafted Perfection</p>
+            <p>Authentic wooden furniture for your modern home.</p>
+            <a href="shop.html" class="btn-shop">Shop Collection</a>
+        </div>
+
+        <!-- Slider Images -->
+        <img class="slide fade" src="images/products/frame2.jpg" alt="Banner 1" style="display: none;">
+        <img class="slide fade" src="images/products/table1.jpg" alt="Banner 2" style="display: none;">
+        <img class="slide fade" src="images/hero/watch.jpg" alt="Banner 3" style="display: block;">
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <main class="products-section">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="images/products/AntiqueChair2.jpg" alt="Chair">
+                <h3>Antique Chair</h3>
+                <p class="price">$120.00</p>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/products/table2.jpg" alt="Table">
+                <h3>Oak Wood Table</h3>
+                <p class="price">$350.00</p>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/products/frame1.jpg" alt="Frame">
+                <h3>Carved Frame</h3>
+                <p class="price">$45.00</p>
+                <button class="btn-add">Add to Cart</button>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>Merkato Wood Works</h3>
+        <div class="footer-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">TikTok</a>
+            <a href="#">YouTube</a>
+        </div>
+        <p>© 2026 Shamma Store. All rights reserved.</p>
+    </footer>
+<script src="js/products.js js/search.js">
+
+</script>
+</body>
+</html>
